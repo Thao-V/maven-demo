@@ -3,3 +3,11 @@
 .project
 .settings/
 .vscode/
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
