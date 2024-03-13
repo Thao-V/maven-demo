@@ -6,6 +6,7 @@
 
 ## Deployment
 1. Copy this configuration to `pom.xml`
+```
 <build>
       <plugins>
           <plugin>
@@ -23,6 +24,9 @@
           </plugin>
       </plugins>
   </build>
+```
 2. Package: mvn package
 3. Test the file `.jar` in `target` directory: java -jar target/abc.jar
 4. Now you can run this jar file to any machine which has the same version of JRE: java -jar <your_path_to_jar_file>
+## Unit test
+* Using command: mvn test
